@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    tools:context=".StoryActivity">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="207dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="213dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/story_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backButton" />
+
+    <ImageView
+        android:id="@+id/littleRedRidingHood"
+        android:layout_width="411dp"
+        android:layout_height="440dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/littlered"
+        app:layout_constraintHeight_percent="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintWidth_percent="0.45" />
+
+    <ImageView
+        android:id="@+id/hanselAndGretel"
+        android:layout_width="453dp"
+        android:layout_height="436dp"
+        android:layout_marginStart="297dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="116dp"
+        android:src="@drawable/hanselandgretel"
+        app:layout_constraintBottom_toTopOf="@+id/rapunzel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.6"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/littleRedRidingHood"
+        app:layout_constraintWidth_percent="0.45" />
+
+    <ImageView
+        android:id="@+id/pinocchio"
+        android:layout_width="427dp"
+        android:layout_height="433dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
+        android:src="@drawable/pinocchio"
+        app:layout_constraintHeight_percent="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/littleRedRidingHood"
+        app:layout_constraintWidth_percent="0.45" />
+
+    <ImageView
+        android:id="@+id/rapunzel"
+        android:layout_width="468dp"
+        android:layout_height="440dp"
+        android:layout_marginStart="301dp"
+        android:layout_marginBottom="352dp"
+        android:src="@drawable/rapunzel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.6"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="@+id/pinocchio"
+        app:layout_constraintWidth_percent="0.45" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
