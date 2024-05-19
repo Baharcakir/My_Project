@@ -12,13 +12,21 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name=".TaskList"
+            android:name=".StoryView"
             android:exported="false"
             android:theme="@style/Theme.AppCompat"/>
         <activity
+            android:name=".FlagQuiz"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".TaskList"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
             android:name=".Story"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat"/>
+            android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".MathQuizResult"
             android:exported="false"
@@ -65,6 +73,7 @@
             android:theme="@style/Theme.AppCompat">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

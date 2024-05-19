@@ -126,7 +126,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/white"
-            android:text="SUBMIT"
+            android:text="@string/submit"
             />
 
     </LinearLayout>

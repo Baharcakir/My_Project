@@ -1,3 +1,138 @@
 <resources>
     <string name="app_name">My Project</string>
+    <string name="LittleRedRidingHood"><![CDATA[
+        Once upon a time, there was a sweet little girl who lived in a village near the forest. She always wore a red riding cloak, so everyone called her Little Red Riding Hood. One day, her mother asked her to take a basket of food to her grandmother, who lived deep in the woods.
+        "Remember," her mother said, "go straight to Grandma's house. Don't talk to strangers, and don't wander off the path."
+        Little Red Riding Hood promised to obey her mother. As she was walking through the forest, she met a big, bad wolf. The wolf was very hungry and wanted to eat her, but he didn't dare because there were woodcutters nearby.
+        "Where are you going, little girl?" the wolf asked.
+        "I'm going to see my grandmother and take her some food," Little Red Riding Hood replied.
+        The wolf had a wicked idea. He suggested that she pick some flowers for her grandmother, and while she was doing that, he ran straight to Grandma's house. The wolf knocked on the door and, pretending to be Little Red Riding Hood, he gained entry. He quickly gobbled up the grandmother and dressed in her clothes, waiting for Little Red Riding Hood to arrive.
+        When Little Red Riding Hood finally got to the house, she noticed something strange about her grandmother.
+        "Grandmother, what big eyes you have!" she exclaimed.
+        "All the better to see you with, my dear," the wolf replied.
+        "Grandmother, what big ears you have!"
+        "All the better to hear you with, my dear."
+        "Grandmother, what big teeth you have!"
+        "All the better to eat you with!" the wolf roared as he jumped out of bed and tried to grab her.
+        Little Red Riding Hood screamed, and the woodcutters in the forest came running to the house. They quickly killed the wolf and saved both Little Red Riding Hood and her grandmother, who was still alive and hiding in the closet.
+        Little Red Riding Hood learned a valuable lesson that day: always listen to your parents and never talk to strangers.
+        The end.
+    ]]></string>
+    <string name="Pinocchio"><![CDATA[
+        Once upon a time, there was a carpenter named Geppetto who carved a puppet named Pinocchio. To his amazement, Pinocchio came to life. Pinocchio dreamed of becoming a real boy, but he often got into trouble because he was mischievous and didn't always tell the truth. Each time Pinocchio lied, his nose would grow longer.
+        Pinocchio faced many adventures. He was tricked by a sly fox and a cat, turned into a donkey, and swallowed by a giant whale. Throughout his journey, Pinocchio learned valuable lessons about honesty, bravery, and selflessness.
+        With the help of the Blue Fairy and his conscience, Jiminy Cricket, Pinocchio eventually proved himself to be kind and honest. In the end, his wish was granted, and he became a real boy, much to the joy of Geppetto.
+        The end.
+    ]]></string>
+    <string name="Rapunzel">
+        rapunzel hikayesi
+    </string>
+    <string name="HanselandGretel">
+        hansel ve gretel hikayesi
+    </string>
+    <string name="flag_question">
+        Which country is this?
+    </string>
+    <string name="belgium">
+        Belgium
+    </string>
+    <string name="america">
+        america
+    </string>
+    <string name="germany">
+        germany
+    </string>
+    <string name="italy">
+        italy
+    </string>
+    <string name="submit">
+        submit
+    </string>
+    <string name="tictactoe">
+        tictactoe
+    </string>
+    <string name="status">
+        status
+    </string>
+    <string name="homepage_text">
+        HOMEPAGE
+    </string>
+    <string name="game_text">
+        game
+    </string>
+    <string name="story_text">
+        stories
+    </string>
+    <string name="operations_text">
+        operations
+    </string>
+    <string name="flags_text">
+        flags
+    </string>
+    <string name="synonym_text">
+        synonym antonym
+    </string>
+    <string name="to_do_text">
+        to do
+    </string>
+    <string name="login">
+        Login
+    </string>
+    <string name="email" translatable="false">
+        Email
+    </string>
+    <string name="password">
+        Password
+    </string>
+    <string name="signUpRedirect">
+        Not yet registered? Sign Up
+    </string>
+    <string name="loginRedirect">
+        Already a user. Login
+    </string>
+    <string name="signup">
+        Sign Up
+    </string>
+    <string name="math_question_number">
+         Q : 1 / 10
+    </string>
+    <string name="math_right_answer">
+        RA : 1 / 10
+    </string>
+    <string name="LittleRed">
+        Little Red Riding Hood
+    </string>
+    <string name="Pino">
+        Pinocchio
+    </string>
+    <string name="Rap">
+        Rapunzel
+    </string>
+    <string name="Hansel">
+        Hansel and Gretel
+    </string>
+    <string name="synonymButton">
+        Synonym Quiz
+    </string>
+    <string name="antonymButton">
+        Antonym Quiz
+    </string>
+    <string name="result">
+        Result
+    </string>
+    <string name="congrats">
+        Hey, Congratulations!
+    </string>
+    <string name="score" translatable="false">
+        Your Score is 9 out of 10
+    </string>
+    <string name="finish">
+        FINISH
+    </string>
+    <string name="add_task">
+        Add Task
+    </string>
+    <string name="delete">
+        Delete
+    </string>
 </resources>

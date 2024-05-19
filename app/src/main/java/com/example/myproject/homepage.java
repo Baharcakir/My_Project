@@ -53,7 +53,7 @@ public class homepage extends AppCompatActivity {
         flagsCard.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent (homepage.this,SynonymAntonym.class);
+                Intent intent = new Intent (homepage.this,FlagQuiz.class);
                 startActivity(intent);
             }
         });
@@ -67,7 +67,7 @@ public class homepage extends AppCompatActivity {
         storyCard.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                Intent intent = new Intent (homepage.this,SynonymAntonym.class);
+                Intent intent = new Intent (homepage.this,Story.class);
                 startActivity(intent);
             }
         });

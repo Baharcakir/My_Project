@@ -17,7 +17,7 @@
             android:layout_height="50dp"
             android:layout_marginStart="64dp"
             android:gravity="center"
-            android:text="Eş Anlamlı Kelimeler Quiz"
+            android:text="@string/synonymButton"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/antonymButton"
@@ -29,7 +29,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="308dp"
             android:gravity="center"
-            android:text="Zıt Anlamlı Kelimeler Quiz"
+            android:text="@string/antonymButton"
             app:layout_constraintEnd_toEndOf="@+id/synonymButton"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>

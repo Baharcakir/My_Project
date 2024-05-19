@@ -15,16 +15,16 @@ public class AntonymQuiz extends AppCompatActivity {
     private Button option3Button;
 
     private Question[] questions = new Question[] {
-            new Question("Büyük kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 0),
-            new Question("Ağır kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 1),
-            new Question("Yukarı kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 2),
-            new Question("Genç kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 2),
-            new Question("Kirli kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 2),
-            new Question("Gündüz kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 2),
-            new Question("Zengin kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 2),
-            new Question("Doğru kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 2),
-            new Question("Sert kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 2),
-            new Question("Taze kelimesinin zıt anlamlısı nedir?", new String[] {"Option 1", "Option 2", "Option 3"}, 2),
+            new Question("Büyük kelimesinin zıt anlamlısı nedir?", new String[] {"Küçük", "Cüce ", "Kalıp"}, 0),
+            new Question("Ağır kelimesinin zıt anlamlısı nedir?", new String[] {"Şişko", "Hafif", "Kadın"}, 1),
+            new Question("Yukarı kelimesinin zıt anlamlısı nedir?", new String[] {"Sol", "Sağ", "Aşağı"}, 2),
+            new Question("Genç kelimesinin zıt anlamlısı nedir?", new String[] {"Zaman", "Yaşlı", "Adam"}, 1),
+            new Question("Kirli kelimesinin zıt anlamlısı nedir?", new String[] {"Temiz", "Kapalı", "Hijyen"}, 0),
+            new Question("Gündüz kelimesinin zıt anlamlısı nedir?", new String[] {"Sabah", "Öğle", "Gece"}, 2),
+            new Question("Zengin kelimesinin zıt anlamlısı nedir?", new String[] {"Koca", "Fiyat", "Fakir"}, 2),
+            new Question("Doğru kelimesinin zıt anlamlısı nedir?", new String[] {"Soru", "Yanlış", "Cevap"}, 1),
+            new Question("Sert kelimesinin zıt anlamlısı nedir?", new String[] {"Yumuşak", "Opak", "Temiz"}, 0),
+            new Question("Taze kelimesinin zıt anlamlısı nedir?", new String[] {"Bayat", "Kirli", "Islak"}, 0),
     };
 
     private int currentQuestionIndex = 0;

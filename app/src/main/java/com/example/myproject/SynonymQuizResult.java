@@ -22,7 +22,7 @@ public class SynonymQuizResult extends AppCompatActivity {
         tvScore.setText("Your score is " + correctAnswers + " out of " + totalQuestions);
 
         btnFinish.setOnClickListener(v -> {
-            startActivity(new Intent(this, SynonymAntonym.class));
+            startActivity(new Intent(this, homepage.class));
         });
     }
 }

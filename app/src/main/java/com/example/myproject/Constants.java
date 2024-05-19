@@ -15,7 +15,7 @@ public class Constants {
                 1, "Öğretmen kelimesinin eş anlamlısı nedir?",
                 R.drawable.teacher,
                 "Muallim", "Mektep",
-                "Talebe", "Austria", 1
+                "Talebe", "Okul", 1
         );
         questionsList.add(que1);
 
@@ -42,7 +42,7 @@ public class Constants {
                 4, "Zengin kelimesinin eş anlamlısı nedir?",
                 R.drawable.money,
                 "Fakir", "Varlıklı",
-                "Barbados", "Belize", 2
+                "Elon Musk", "Koca", 2
         );
         questionsList.add(que4);
 
@@ -50,8 +50,8 @@ public class Constants {
         synonymquestions que5 = new synonymquestions(
                 5, "Sınav kelimesinin eş anlamlısı nedir?",
                 R.drawable.exam,
-                "Gabon", "France",
-                "İmtihan", "Finland", 3
+                "Okul", "Kağıt",
+                "İmtihan", "Kabus", 3
         );
         questionsList.add(que5);
 
@@ -59,8 +59,8 @@ public class Constants {
         synonymquestions que6 = new synonymquestions(
                 6, "Hediye kelimesinin eş anlamlısı nedir?",
                 R.drawable.gift,
-                "Armağan", "Georgia",
-                "Greece", "none of these", 1
+                "Armağan", "Oyuncak",
+                "Kutu", "Yukarıdakilerden hiçbiri", 1
         );
         questionsList.add(que6);
 
@@ -68,8 +68,8 @@ public class Constants {
         synonymquestions que7 = new synonymquestions(
                 7, "Sonbahar kelimesinin eş anlamlısı nedir?",
                 R.drawable.autumn,
-                "Dominica", "Egypt",
-                "Güz", "Ethiopia", 3
+                "Kış", "Yaz",
+                "Güz", "İlkbahar", 3
         );
         questionsList.add(que7);
 
@@ -77,8 +77,8 @@ public class Constants {
         synonymquestions que8 = new synonymquestions(
                 8, "Zaman kelimesinin eş anlamlısı nedir?",
                 R.drawable.time,
-                "Ireland", "Iran",
-                "Hungary", "Vakit", 4
+                "Yaşam", "Nakit",
+                "Saat", "Vakit", 4
         );
         questionsList.add(que8);
 
@@ -86,8 +86,8 @@ public class Constants {
         synonymquestions que9 = new synonymquestions(
                 9, "Okul kelimesinin eş anlamlısı nedir?",
                 R.drawable.school,
-                "Australia", "Mektep",
-                "Tuvalu", "United States of America", 2
+                "Oyun Alanı", "Mektep",
+                "Kötü", "Öğretmen", 2
         );
         questionsList.add(que9);
 
@@ -95,8 +95,8 @@ public class Constants {
         synonymquestions que10 = new synonymquestions(
                 10, "Ev kelimesinin eş anlamlısı nedir?",
                 R.drawable.home,
-                "Konut", "Jordan",
-                "Sudan", "Palestine", 1
+                "Konut", "Para",
+                "Kira", "Kapıcı", 1
         );
         questionsList.add(que10);
 
