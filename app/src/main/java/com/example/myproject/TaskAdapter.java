@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
+import android.graphics.Color;
 
 import java.util.ArrayList;
 
@@ -29,6 +30,7 @@ public class TaskAdapter extends ArrayAdapter<String> {
 
         TextView taskTextView = convertView.findViewById(R.id.taskTextView);
         taskTextView.setText(task);
+        taskTextView.setTextColor(Color.BLACK);
 
         Button deleteButton = convertView.findViewById(R.id.deleteButton);
         deleteButton.setOnClickListener(v -> {
